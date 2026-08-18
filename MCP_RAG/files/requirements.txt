@@ -1,0 +1,8 @@
+# ---- RAG demo (rag_demo.py) ----
+chromadb            # local vector database + built-in local embeddings
+anthropic           # only needed for the optional "generate" step
+
+# ---- MCP demo (mcp_server.py, mcp_client.py) ----
+# v1.x is the stable line. v2 is still a pre-release, so we pin below 2
+# to make sure the FastMCP API in these examples keeps working.
+mcp>=1.9,<2

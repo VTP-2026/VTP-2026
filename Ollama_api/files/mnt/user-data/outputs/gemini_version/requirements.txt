@@ -1,0 +1,10 @@
+# ---- RAG demo (rag_demo.py) ----
+chromadb            # local vector database
+google-genai        # official Google Gen AI SDK (Gemini)
+
+# ---- MCP demo (mcp_server.py, mcp_client_gemini.py) ----
+mcp>=1.9,<2         # also used by google-genai's built-in MCP support
+
+# You need a Gemini API key (free tier available):
+#   https://aistudio.google.com/apikey
+#   export GEMINI_API_KEY="your-key"

@@ -1,0 +1,12 @@
+# ---- RAG demo (rag_demo.py) ----
+chromadb            # local vector database
+ollama              # Python client for a locally-running Ollama server
+
+# ---- MCP demo (mcp_server.py, mcp_client_ollama.py) ----
+mcp>=1.9,<2
+
+# NOTE: you also need the Ollama app itself (https://ollama.com) running locally,
+# and the models pulled once from the terminal:
+#   ollama pull nomic-embed-text
+#   ollama pull llama3.2      (for RAG generation)
+#   ollama pull llama3.1      (for MCP tool calling)
